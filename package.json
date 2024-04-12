@@ -1,0 +1,17 @@
+{
+  "name": "wheytoofun",
+  "version": "1.0.0",
+  "description": "Welkom bij onze Beroeps Project. Dit is een Webshop \r applicatie gemaakt met HTML, PHP, SCSS en JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.75.0"
+  }
+}
