@@ -1,10 +1,11 @@
 const {src, dest, watch, series} = require('gulp');
 const sass = require('gulp-sass')(require('sass'))
 
+
 function buildApp() {
-    return src('src/**/*.scss')
+    return src('src/style/scss/**/*.scss') 
         .pipe(sass())
-        .pipe(dest('src/style/css'))
+        .pipe(dest('src/style/css/')); 
 }
 
 function watchTask() {
