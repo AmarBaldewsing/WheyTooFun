@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+.input-name {
+    font-family: $text;
+    color: $color-900;
+    line-height: 0;
+    font-weight: $fw-main;
+}
+
+.input-fld {
+    font-family: $text;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid $color-700;
+}

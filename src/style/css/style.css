@@ -1,6 +1,153 @@
-h1 {
-  color: red;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.C-900 {
+  color: #1b1b1b;
 }
-h1 a {
-  font-family: Arial, Helvetica, sans-serif;
+
+.C-700 {
+  color: #6E6E6E;
+}
+
+.C-500 {
+  color: rgba(222, 222, 222, 0.6549019608);
+}
+
+.C-300 {
+  color: #fff;
+}
+
+.BG-900 {
+  background-color: #1b1b1b;
+}
+
+.BG-700 {
+  background-color: #6E6E6E;
+}
+
+.BG-500 {
+  background-color: rgba(222, 222, 222, 0.6549019608);
+}
+
+.BG-300 {
+  background-color: #fff;
+}
+
+.logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+}
+
+.title, .text, .sub-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text, .sub-text {
+  font-weight: 500;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button {
+  color: #fff;
+  background-color: #1b1b1b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #343434;
+}
+
+.highlight {
+  background-color: rgba(222, 222, 222, 0.6549019608);
+  color: #6E6E6E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 8px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  outline: 1px solid rgba(255, 255, 255, 0.4588235294);
+}
+
+.input-name {
+  font-family: "Montserrat", sans-serif;
+  color: #1b1b1b;
+  line-height: 0;
+  font-weight: 700;
+}
+
+.input-fld {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6E6E6E;
+}
+
+.card-highlight {
+  background-color: rgba(222, 222, 222, 0.6549019608);
+  padding: 0.5em 1em;
+  width: fit-content;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+.card-highlight .highlight-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.card-highlight .highlight-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+}
+
+.card-img::after {
+  content: "✭ 4.9";
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+}
+
+.card-txt {
+  padding: 0.5em;
+  line-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title {
+  color: #6E6E6E;
+}
+
+.card-price {
+  font-weight: 700;
 }

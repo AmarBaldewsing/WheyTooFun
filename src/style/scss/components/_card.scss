@@ -1,0 +1,63 @@
+@use '../abstracts/variables' as *;
+  
+//highlights card
+.card-highlight {
+    background-color: $color-500;
+    padding: 0.5em 1em;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 0.75rem;
+}
+
+.card-highlight .highlight-title {
+    font-family: $text;
+    font-weight: $fw-main;
+}
+
+.card-highlight .highlight-text {
+    font-family: $text;
+}
+
+//product-card
+.card {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.card-img {
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1rem;
+    position: relative;
+}
+
+.card-img::after {
+    content: "✭ 4.9";
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+}
+
+.card-txt {
+    padding: 0.5em; 
+    line-height: 0; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 5px;
+    font-family: $text;
+}
+
+.card-title {
+    color: $color-700;
+}
+
+.card-price {
+    font-weight: $fw-main;
+}

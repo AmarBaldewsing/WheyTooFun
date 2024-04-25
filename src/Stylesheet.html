@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling HTML Elements</title>
+    <link rel="stylesheet" href="./style/css/style.css">
+    <style>
+        .flex-con {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+
+        .item {
+            width: 250px;
+            height: 250px;
+            outline: 1px solid gray;
+        }
+
+        .color-red {
+            color: red;
+        }
+        .color-blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   <div class="fonts">
+        <h1 class="color-red">Typography</h1>
+
+        <span class="color-blue">.logo</span>
+        <h1 class="logo C-900">WheyTooFun</h1>
+
+        <span class="color-blue">.title</span>
+        <h1 class="title C-900">Shop</h1>
+
+        <span class="color-blue">.text</span>
+        <p class="text C-900">Sportbroeken</p>
+
+        <span class="color-blue">.sub-text</span>
+        <p class="sub-text C-700">Slim Fit</p>
+   </div>
+
+   <div class="colors">
+        <h1 class="color-red">Text color classes</h1>
+        <p class="color-blue">Colors</p>
+        <span class="C-900">.C-900</span>
+        <span class="C-700">.C-700</span>
+        <span class="C-500">.C-500</span>
+        <span style="background-color: #000;" class="C-300">.C-300</span>
+   </div>
+
+   <h1 class="color-red">background-color</h1>
+   <div class="flex-con">
+        <div style="color: #fff;" class="item BG-900">BG-900</div>
+        <div class="item BG-700">BG-700</div>
+        <div class="item BG-500">BG-500</div>
+        <div class="item BG-300">BG-300</div>
+   </div>
+
+   <div class="buttons">
+        <h1 class="color-red">Buttons + Highlights</h1>
+        <p class="color-blue">button</p>
+        <a href="#" class="button">Aan winkelwagen toevoegen</a>
+        <p class="color-blue">Highlights</p>
+        <span class="highlight">nieuw</span>
+   </div>
+
+   <div class="card-con">
+        <h1 class="color-red">Cards</h1>
+        <p class="color-blue">Highlights Card</p>
+            <div class="card-highlight">
+                <p class="highlight-title">Standaardlevering(2-4 werkdagen)</p>
+                <p class="highlight-text">Uw producten worden verzonden tussen 2 to 4 werkdagen!</p>
+            </div>
+        <p class="color-blue">Card</p>
+
+        <div class="card">
+            <div style="background-image: url('https://cdn.shopify.com/s/files/1/0185/2846/9056/files/ImpactT-ShirtGSSandBrownA6A5Z-NBZS-0303.jpg?v=1711527969');" class="card-img">
+                <span class="highlight">nieuw</span>
+            </div>
+            <div class="card-txt">
+                <p class="card-title">Impact T-shirt</p>
+                <p class="card-price">$30</p>
+            </div>
+        </div>
+
+   </div>
+
+   <div class="inputs">
+        <h1 class="color-red">Input</h1>
+        <div class="input">
+            <span class="color-blue">input-name</span>
+            <p class="input-name">Naam</p>
+            <span style="display: block;" class="color-blue">input-fld</span>
+            <input type="text" class="input-fld" placeholder="Naam invoeren">
+            <span style="display: block;" class="color-blue">icons</span>
+            <img src="./img/account.svg" width="50">
+            <img src="./img/shopping.svg"width="50">
+        </div>
+   </div>
+
+</body>
+</html>

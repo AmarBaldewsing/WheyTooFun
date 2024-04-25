@@ -1,6 +1,6 @@
-h1 {
-    color: red;
-    a {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
+//import abstracts
+@use './abstracts/colors';
+//import fonts
+@use './util/fonts';
+//import components
+@use './components/index';

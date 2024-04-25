@@ -1,0 +1,28 @@
+@use '../abstracts/variables' as *;
+
+.button {
+    color: $color-300;
+    background-color: $color-900;
+    font-family: $text;
+    font-weight: $fw-main;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #343434;
+}
+
+.highlight {
+    background-color: $color-500;
+    color: $color-700;
+    font-family: $text;
+    font-weight: $fw-main;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: .75rem;
+    border-radius: 5px;
+    outline: 1px solid #ffffff75;
+}

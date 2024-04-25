@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+//basic font styling
+.logo {
+    font-family: $logo;
+    font-size: 3rem;
+}
+
+.title, .text, .sub-text {font-family: $text;}
+.text, .sub-text {font-weight: $fw-submain;}
+
+.title {
+    font-weight: $fw-main;
+    text-transform: uppercase;
+}
