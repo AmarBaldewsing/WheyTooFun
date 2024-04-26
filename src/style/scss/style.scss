@@ -1,6 +1,13 @@
+//import reset
+@use './base/reset';
 //import abstracts
 @use './abstracts/colors';
 //import fonts
 @use './util/fonts';
 //import components
 @use './components/index';
+@use './themes/border';
+//import wrapper
+@use './layout/wrapper';
+//import layouts
+@use './layout/flex';

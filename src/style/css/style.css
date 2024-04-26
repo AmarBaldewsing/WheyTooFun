@@ -1,6 +1,15 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 .C-900 {
   color: #1b1b1b;
 }
@@ -137,7 +146,6 @@
 
 .card-txt {
   padding: 0.5em;
-  line-height: 0;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -150,4 +158,26 @@
 
 .card-price {
   font-weight: 700;
+}
+
+.b-bottom {
+  border-bottom: 1px solid black;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding: 1em 0;
+}
+
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gap {
+  gap: 10px;
 }
