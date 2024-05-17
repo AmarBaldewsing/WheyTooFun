@@ -1,5 +1,6 @@
 //import reset
 @use './base/reset';
+@use './base/height';
 //import abstracts
 @use './abstracts/colors';
 //import fonts
@@ -7,7 +8,12 @@
 //import components
 @use './components/index';
 @use './themes/border';
+@use './components/nav';
+@use './components/cart';
 //import wrapper
 @use './layout/wrapper';
 //import layouts
 @use './layout/flex';
+//import utils
+@use './util/padding';
+@use './util/image';

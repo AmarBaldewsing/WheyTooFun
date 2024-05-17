@@ -36,14 +36,14 @@
     position: relative;
 }
 
-.card-img::after {
-    content: "✭ 4.9";
-    width: 50px;
-    height: 20px;
-    position: absolute;
-    bottom: -25px;
-    right: 0;
-}
+// .card-img::after {
+//     content: "✭ 4.5";
+//     width: 50px;
+//     height: 20px;
+//     position: absolute;
+//     bottom: -25px;
+//     right: 0;
+// }
 
 .card-txt {
     padding: 0.5em; 

@@ -13,3 +13,11 @@
     font-weight: $fw-main;
     text-transform: uppercase;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.text-width {
+    max-width: 36ch;
+}

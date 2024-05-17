@@ -12,9 +12,8 @@
             <h1 class="logo">WheyTooFun</h1>
             <ul class="links flex-row-between gap">
                 <li><a class="title" href="../index.php">Home</a></li>
-                <li><a class="title" href="#">Over Ons</a></li>
                 <li><a class="title" href="producten.php">Producten</a></li>
-                <li><a class="button" href="#">Log In</a></li>
+                <li><a class="button" href="login.php">Login</a></li>
             </ul>
         </div>
     </nav>

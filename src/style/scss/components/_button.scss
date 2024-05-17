@@ -11,6 +11,17 @@
     text-transform: uppercase;
 }
 
+.button-small {
+    color: $color-300;
+    background-color: $color-900;
+    font-family: $text;
+    font-weight: $fw-main;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
 .button:hover {
     background-color: #343434;
 }
